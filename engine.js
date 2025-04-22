@@ -14,7 +14,7 @@ let game = {
         'smile'],
     cards: null,
     setCard: function (id) {
-        let card = this.cards.filter(card => card.id === id)[0];
+        let card = this.cards.filter(card => card.id === id)[0]
         console.log(card);
         if (card.flipped || this.lockMode) {
             return false;
