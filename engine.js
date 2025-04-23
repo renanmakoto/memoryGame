@@ -17,7 +17,7 @@ let game = {
         let card = this.cards.filter(card => card.id === id)[0]
         console.log(card)
         if (card.flipped || this.lockMode) {
-            return false;
+            return false
         }
         if (!this.firstCard) {
             this.firstCard = card;
