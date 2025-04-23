@@ -20,7 +20,7 @@ let game = {
             return false
         }
         if (!this.firstCard) {
-            this.firstCard = card;
+            this.firstCard = card
             this.firstCard.flipped = true;
             return true;
         } else {
