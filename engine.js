@@ -26,7 +26,7 @@ let game = {
             this.firstCard.flipped = true
             return true
         } else {
-            this.secondCard = card;
+            this.secondCard = card
             this.secondCard.flipped = true;
             this.lockMode = true;
             return true;
