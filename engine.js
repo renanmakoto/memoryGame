@@ -20,6 +20,7 @@ let game = {
         if (card.flipped || this.lockMode) {
             return false
         }
+        
         if (!this.firstCard) {
             this.firstCard = card
             this.firstCard.flipped = true
