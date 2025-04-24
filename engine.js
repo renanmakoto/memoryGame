@@ -27,7 +27,7 @@ let game = {
             return true
         } else {
             this.secondCard = card
-            this.secondCard.flipped = true;
+            this.secondCard.flipped = true
             this.lockMode = true;
             return true;
         }
