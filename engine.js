@@ -46,7 +46,7 @@ let game = {
     unflipCards() {
         this.firstCard.flipped = false
         this.secondCard.flipped = false
-        this.clearCards();
+        this.clearCards()
     },
     checkGameOver() {
         return this.cards.filter(card => !card.flipped).length == 0;
