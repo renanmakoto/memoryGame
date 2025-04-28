@@ -41,7 +41,7 @@ let game = {
     clearCards: function () {
         this.firstCard = null
         this.secondCard = null
-        this.lockMode = false;
+        this.lockMode = false
     },
     unflipCards() {
         this.firstCard.flipped = false
