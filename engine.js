@@ -52,7 +52,7 @@ let game = {
         return this.cards.filter(card => !card.flipped).length == 0
     },
     createCardsFromCardObj: function () {
-        this.cards = [];
+        this.cards = []
         this.cardObj.forEach((object) => {
             this.cards.push(this.createPairFromObj(object));
         })
