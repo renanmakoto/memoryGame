@@ -56,7 +56,7 @@ let game = {
         this.cardObj.forEach((object) => {
             this.cards.push(this.createPairFromObj(object))
         })
-        this.cards = this.cards.flatMap(pair => pair);
+        this.cards = this.cards.flatMap(pair => pair)
         this.shuffleCards();
         return this.cards;
     },
