@@ -72,7 +72,7 @@ let game = {
         }]
     },
     createIdWithObj: function (object) {
-        return object + parseInt(Math.random() * 1000);
+        return object + parseInt(Math.random() * 1000)
     },
     shuffleCards: function (cards) {
         let currentIndex = this.cards.length;
