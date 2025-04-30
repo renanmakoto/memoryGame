@@ -75,7 +75,7 @@ let game = {
         return object + parseInt(Math.random() * 1000)
     },
     shuffleCards: function (cards) {
-        let currentIndex = this.cards.length;
+        let currentIndex = this.cards.length
         let randomIndex = 0;
         while (currentIndex !== 0) {
             randomIndex = Math.floor(Math.random() * currentIndex);
