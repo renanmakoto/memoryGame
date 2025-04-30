@@ -76,7 +76,7 @@ let game = {
     },
     shuffleCards: function (cards) {
         let currentIndex = this.cards.length
-        let randomIndex = 0;
+        let randomIndex = 0
         while (currentIndex !== 0) {
             randomIndex = Math.floor(Math.random() * currentIndex);
             currentIndex--;
