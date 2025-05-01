@@ -24,6 +24,7 @@ let game = {
         if (!this.firstCard) {
             this.firstCard = card
             this.firstCard.flipped = true
+            
             return true
         } else {
             this.secondCard = card
