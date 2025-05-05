@@ -7,7 +7,7 @@ function startTheGame() {
     initializeCards(game.createCardsFromCardObj())
 }
 function initializeCards(cards) {
-    let gameBoard = document.getElementById("gameBoard");
+    let gameBoard = document.getElementById("gameBoard")
     gameBoard.innerHTML = '';
     game.cards.forEach(card => {
         let cardElement = document.createElement('div');
