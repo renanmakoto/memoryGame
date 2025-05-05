@@ -11,7 +11,7 @@ function initializeCards(cards) {
     gameBoard.innerHTML = ''
     game.cards.forEach(card => {
         let cardElement = document.createElement('div')
-        cardElement.id = card.id;
+        cardElement.id = card.id
         cardElement.classList.add(carta);
         cardElement.dataset.icon = card.icon;
         createCardContent(card, cardElement);
