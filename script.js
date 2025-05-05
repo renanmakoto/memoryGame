@@ -10,7 +10,7 @@ function initializeCards(cards) {
     let gameBoard = document.getElementById("gameBoard")
     gameBoard.innerHTML = ''
     game.cards.forEach(card => {
-        let cardElement = document.createElement('div');
+        let cardElement = document.createElement('div')
         cardElement.id = card.id;
         cardElement.classList.add(carta);
         cardElement.dataset.icon = card.icon;
