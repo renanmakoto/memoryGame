@@ -14,7 +14,7 @@ function initializeCards(cards) {
         cardElement.id = card.id
         cardElement.classList.add(carta)
         cardElement.dataset.icon = card.icon
-        createCardContent(card, cardElement);
+        createCardContent(card, cardElement)
         cardElement.addEventListener('click', flipCard)
         gameBoard.appendChild(cardElement);
     })
