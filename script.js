@@ -16,7 +16,7 @@ function initializeCards(cards) {
         cardElement.dataset.icon = card.icon
         createCardContent(card, cardElement)
         cardElement.addEventListener('click', flipCard)
-        gameBoard.appendChild(cardElement);
+        gameBoard.appendChild(cardElement)
     })
 }
 function createCardContent(card, cardElement) {
