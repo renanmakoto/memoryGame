@@ -34,7 +34,7 @@ function createCardFace(face, card, element) {
     } else {
         cardElementFace.innerHTML = "amDot"
     }
-    element.appendChild(cardElementFace);
+    element.appendChild(cardElementFace)
 }
 function flipCard() {
     if (game.setCard(this.id)) {
