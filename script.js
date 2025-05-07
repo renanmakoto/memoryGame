@@ -32,7 +32,7 @@ function createCardFace(face, card, element) {
         iconElement.src = "./icons/" + card.icon + ".png"
         cardElementFace.appendChild(iconElement)
     } else {
-        cardElementFace.innerHTML = "amDot";
+        cardElementFace.innerHTML = "amDot"
     }
     element.appendChild(cardElementFace);
 }
