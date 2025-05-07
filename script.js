@@ -25,7 +25,7 @@ function createCardContent(card, cardElement) {
 }
 function createCardFace(face, card, element) {
     let cardElementFace = document.createElement('div')
-    cardElementFace.classList.add(face);
+    cardElementFace.classList.add(face)
     if (face === front) {
         let iconElement = document.createElement('img');
         iconElement.classList.add(icone);
