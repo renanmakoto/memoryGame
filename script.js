@@ -29,7 +29,7 @@ function createCardFace(face, card, element) {
     if (face === front) {
         let iconElement = document.createElement('img')
         iconElement.classList.add(icone)
-        iconElement.src = "./icons/" + card.icon + ".png";
+        iconElement.src = "./icons/" + card.icon + ".png"
         cardElementFace.appendChild(iconElement);
     } else {
         cardElementFace.innerHTML = "amDot";
