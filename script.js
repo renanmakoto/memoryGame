@@ -48,7 +48,7 @@ function flipCard() {
                 }
             } else {
                 setTimeout(() => {
-                    let firstCardView = document.getElementById(game.firstCard.id);
+                    let firstCardView = document.getElementById(game.firstCard.id)
                     let secondCardView = document.getElementById(game.secondCard.id);
 
                     firstCardView.classList.remove('flip');
