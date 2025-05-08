@@ -49,7 +49,7 @@ function flipCard() {
             } else {
                 setTimeout(() => {
                     let firstCardView = document.getElementById(game.firstCard.id)
-                    let secondCardView = document.getElementById(game.secondCard.id);
+                    let secondCardView = document.getElementById(game.secondCard.id)
 
                     firstCardView.classList.remove('flip');
                     secondCardView.classList.remove('flip');
