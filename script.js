@@ -53,7 +53,7 @@ function flipCard() {
 
                     firstCardView.classList.remove('flip')
                     secondCardView.classList.remove('flip')
-                    game.unflipCards();
+                    game.unflipCards()
                 }, 1000);
 
             };
