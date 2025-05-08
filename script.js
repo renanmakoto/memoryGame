@@ -44,7 +44,7 @@ function flipCard() {
                 game.clearCards()
                 if (game.checkGameOver()) {
                     let gameOverLayer = document.getElementById("gameOver")
-                    gameOverLayer.style.display = 'flex';
+                    gameOverLayer.style.display = 'flex'
                 }
             } else {
                 setTimeout(() => {
