@@ -41,7 +41,7 @@ function flipCard() {
         this.classList.add("flip")
         if (game.secondCard) {
             if (game.checkIfTheyMatch()) {
-                game.clearCards();
+                game.clearCards()
                 if (game.checkGameOver()) {
                     let gameOverLayer = document.getElementById("gameOver");
                     gameOverLayer.style.display = 'flex';
