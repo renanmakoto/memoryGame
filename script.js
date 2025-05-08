@@ -43,7 +43,7 @@ function flipCard() {
             if (game.checkIfTheyMatch()) {
                 game.clearCards()
                 if (game.checkGameOver()) {
-                    let gameOverLayer = document.getElementById("gameOver");
+                    let gameOverLayer = document.getElementById("gameOver")
                     gameOverLayer.style.display = 'flex';
                 }
             } else {
