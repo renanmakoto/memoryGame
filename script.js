@@ -56,7 +56,7 @@ function flipCard() {
                     game.unflipCards()
                 }, 1000)
 
-            };
+            }
         }
     }
 }
