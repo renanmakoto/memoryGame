@@ -2,6 +2,7 @@ const front = "cardFront"
 const back = "cardBack"
 const carta = "card"
 const icone = "icon"
+
 startTheGame()
 function startTheGame() {
     initializeCards(game.createCardsFromCardObj())
