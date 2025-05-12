@@ -4,6 +4,7 @@ const carta = "card"
 const icone = "icon"
 
 startTheGame()
+
 function startTheGame() {
     initializeCards(game.createCardsFromCardObj())
 }
