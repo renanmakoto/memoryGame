@@ -29,6 +29,7 @@ function createCardContent(card, cardElement) {
     createCardFace(front, card, cardElement)
     createCardFace(back, card, cardElement)
 }
+
 function createCardFace(face, card, element) {
     let cardElementFace = document.createElement('div')
     cardElementFace.classList.add(face)
