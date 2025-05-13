@@ -35,7 +35,6 @@ function createCardFace(face, card, element) {
     cardElementFace.classList.add(face)
     
     if (face === front) {
-        
         let iconElement = document.createElement('img')
         iconElement.classList.add(icone)
         iconElement.src = "./icons/" + card.icon + ".png"
@@ -45,6 +44,7 @@ function createCardFace(face, card, element) {
     }
     element.appendChild(cardElementFace)
 }
+
 function flipCard() {
     if (game.setCard(this.id)) {
         this.classList.add("flip")
