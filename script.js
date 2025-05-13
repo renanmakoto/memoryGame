@@ -24,6 +24,7 @@ function initializeCards(cards) {
         gameBoard.appendChild(cardElement)
     })
 }
+
 function createCardContent(card, cardElement) {
     createCardFace(front, card, cardElement)
     createCardFace(back, card, cardElement)
