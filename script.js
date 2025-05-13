@@ -69,6 +69,7 @@ function flipCard() {
         }
     }
 }
+
 function restart() {
     game.clearCards()
     startTheGame()
