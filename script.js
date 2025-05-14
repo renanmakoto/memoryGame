@@ -76,5 +76,6 @@ function restart() {
     startTheGame()
     
     let gameOverLayer = document.getElementById("gameOver")
+    
     gameOverLayer.style.display = 'none'
 }
