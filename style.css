@@ -46,8 +46,7 @@ body {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
 }
-/* .icon{   
-} */
+
 
 .flip {
     -webkit-transform: rotateY(180deg);
