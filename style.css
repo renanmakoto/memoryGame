@@ -51,6 +51,7 @@ body {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+
 .cardFront {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
