@@ -63,6 +63,7 @@ body {
     background-color: var(--backColor);
     font-size: 30px;
 }
+
 #gameOver {
     position: absolute;
     width: 100%;
