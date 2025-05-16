@@ -57,6 +57,7 @@ body {
     transform: rotateY(180deg);
     background-color: var(--frontColor);
 }
+
 .cardBack {
     color: var(--textColorBack);
     background-color: var(--backColor);
