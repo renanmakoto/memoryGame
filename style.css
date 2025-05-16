@@ -47,7 +47,6 @@ body {
     backface-visibility: hidden;
 }
 
-
 .flip {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
